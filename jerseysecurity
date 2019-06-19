@@ -13,3 +13,55 @@ https://makeinjava.com/jax-rs-jersey-spring-framework-tutorial-restful-web-servi
 https://stackoverflow.com/questions/18154983/how-do-i-validate-incoming-json-data-inside-a-rest-service
 
 
+
+<properties>
+        <jdk_version>1.7</jdk_version>
+        <jersey_version>2.23.2</jersey_version>
+        <jaxrs.version>2.0.1</jaxrs.version>
+    </properties>
+  <dependencies>
+  <dependency>
+            <groupId>javax.ws.rs</groupId>
+            <artifactId>javax.ws.rs-api</artifactId>
+            <version>${jaxrs.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jersey.containers</groupId>
+            <artifactId>jersey-container-servlet</artifactId>
+            <version>${jersey_version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jersey.media</groupId>
+            <artifactId>jersey-media-json-jackson</artifactId>
+            <version>${jersey_version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jersey.ext</groupId>
+            <artifactId>jersey-bean-validation</artifactId>
+            <version>${jersey_version}</version>
+        </dependency>
+
+<dependency>
+		<groupId>org.glassfish.jersey.media</groupId>
+		<artifactId>jersey-media-multipart</artifactId>
+		<version>${jersey_version}</version>
+	</dependency>
+	<dependency>
+		<groupId>org.glassfish.jersey.core</groupId>
+		<artifactId>jersey-client</artifactId>
+		<version>${jersey_version}</version>
+	</dependency>	
+
+
+<dependency>
+	<groupId>org.glassfish.jersey.containers</groupId>
+	<artifactId>jersey-container-servlet</artifactId>
+	<version>${jersey_version}</version>
+</dependency>
+
+<dependency>
+        <groupId>org.glassfish.jersey.core</groupId>
+        <artifactId>jersey-server</artifactId>
+        <version>${jersey2.version}</version>
+    </dependency>
+    </dependencies>
